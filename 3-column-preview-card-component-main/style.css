@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Big Shoulders Display", sans-serif;
+}
+
+.outer-box {
+  margin: 10% 20% 0 10%;
+  display: flex;
+}
+
+.box1 {
+  width: 25%;
+  height: 400px;
+  background-color: hsl(31, 77%, 52%);
+  padding: 25px 35px;
+  border-radius: 10px 0 0 10px;
+}
+
+.box2 {
+  width: 25%;
+  height: 400px;
+  background-color: hsl(184, 100%, 22%);
+  padding: 25px 35px;
+}
+
+.box3 {
+  width: 25%;
+  height: 400px;
+  background-color: hsl(179, 100%, 13%);
+  padding: 25px 35px;
+  border-radius: 0 10px 10px 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px;
+  color: hsl(0, 16%, 94%);
+}
+
+img {
+  margin: 15px;
+}
+
+p {
+  margin: 5px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 15px;
+  border-radius: 30px;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
